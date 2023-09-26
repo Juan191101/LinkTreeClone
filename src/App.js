@@ -39,7 +39,7 @@ return (
        <ul className=' flex flex-col w-full '>
         {
           links.map((link, index)=>(
-            <li key={index} className='cursor-pointer m-2 py-3 px-10 border-white border-2 text-sm md:text-md text-white hover:text-black hover:border-black'>
+            <li key={index} className='cursor-pointer m-2 py-3 px-10 border-white border-2 text-sm md:text-md text-white hover:text-black hover:border-black hover-effect'>
               <a href={link.url} className='flex items-center' title={link.title} target='_blank' rel='noreferrer'>
               {link.icon}
               <p className='ml-3 '>{link.title}</p>
