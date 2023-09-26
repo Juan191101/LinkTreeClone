@@ -1,5 +1,5 @@
 import './App.css';
-import profilePic from "./primer_plano-removebg-preview.png"
+import profilePic from "./primer_plano-removebg-preview copy.png"
 import {FaGithub, FaInstagram, FaTwitter, FaLinkedin, FaSlack, FaReadme} from "react-icons/fa"
 
 
