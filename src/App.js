@@ -35,7 +35,7 @@ return (
     <div className="App">
       <div className="App-header container mx-auto">
         <img src={profilePic} className="profile-pic w-20 h-20 mb-4 rounded-full border-2 border-white" alt="logo" />
-        <h1 className='text-white font-bold'> Juan Ruarte </h1>
+        <h1 className='text-white font-bold cursor-default'> Juan Ruarte </h1>
        <ul className=' flex flex-col w-full '>
         {
           links.map((link, index)=>(
